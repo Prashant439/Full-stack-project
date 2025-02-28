@@ -1,0 +1,41 @@
+{
+  "name": "green",
+  "version": "1.0.0",
+  "description": "sgbit store management",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js -e html,css,js,ejs"
+  },
+  "keywords": [
+    "store"
+  ],
+  "author": "rakshita",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "connect-flash": "^0.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.2",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "method-override": "^3.0.0",
+    "moment": "^2.30.1",
+    "mongodb": "^5.3.0",
+    "mongoose": "^6.1.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.2",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "randomstring": "^1.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
